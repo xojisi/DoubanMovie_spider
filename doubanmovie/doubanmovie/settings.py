@@ -14,6 +14,7 @@ BOT_NAME = 'doubanmovie'
 SPIDER_MODULES = ['doubanmovie.spiders']
 NEWSPIDER_MODULE = 'doubanmovie.spiders'
 
+HTTPERROR_ALLOWED_CODES = [403]
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'doubanmovie (+http://www.yourdomain.com)'
