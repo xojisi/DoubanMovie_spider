@@ -1,22 +1,24 @@
-1.功能说明：爬取豆瓣电影（movie.douban.com）信息。
+1.功能说明
+
+爬取豆瓣电影（movie.douban.com）信息。
  
-2.爬取页面：
+2.爬取页面:
 
 2.1 按热度排序电影  
 
-链接：https://movie.douban.com/explore#!type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0
+https://movie.douban.com/explore#!type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0
 
 2.2 按时间排序电影
 
-链接：https://movie.douban.com/explore#!type=movie&tag=%E7%83%AD%E9%97%A8&sort=time&page_limit=20&page_start=0
+https://movie.douban.com/explore#!type=movie&tag=%E7%83%AD%E9%97%A8&sort=time&page_limit=20&page_start=0
 
 2.3 所有城市正在上映的电影信息 
 
-链接：https://movie.douban.com/cinema/nowplaying/chengdu/
+https://movie.douban.com/cinema/nowplaying/chengdu/
 
 2.4 全部即将上映的电影信息
 
-链接：https://movie.douban.com/coming
+https://movie.douban.com/coming
 
 3.缺陷说明：
 
@@ -65,3 +67,9 @@ COOKIES_ENABLED = False      #禁用cookies
 5.4 其他spider文件，
 已经代码中充分注释，
 再此不在进行过多描述。
+
+________________________________________
+
+### ChangeList:
+- 2017-06-22：爬取豆瓣热门电影、最新电影、正在上映电影、即将上映电影
+- 2017-05-25: 抓取豆瓣热门电影
