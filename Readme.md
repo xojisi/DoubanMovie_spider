@@ -1,3 +1,6 @@
+使用环境：scrapy 1.4 / python 2.7.13 / window 10 / mysql 5.7 / pymysql 0.7.11
+
+
 1.功能说明
 
 爬取豆瓣电影（movie.douban.com）信息。
